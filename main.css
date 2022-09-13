@@ -1,4 +1,8 @@
-/* CSS VARIABLES */
+
+::-webkit-scrollbar {
+    display: none;
+}
+
 :root {
     --primary: #141414;
     --light: #F3F3F3;
@@ -6,6 +10,7 @@
   }
   
   html, body {
+    overflow-x: hidden;
     width: 100vw;
     min-height: 100vh;
     margin: 0;
